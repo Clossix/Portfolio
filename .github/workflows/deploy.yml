@@ -23,7 +23,8 @@ jobs:
       
       - name: Install, bundle, and test site
         uses: withastro/action@v3
-        with: node-version: 22
+        with: 
+          node-version: 22
         # Wenn du pnpm oder yarn nutzt, kannst du das hier angeben:
         # with:
         #   package-manager: pnpm
