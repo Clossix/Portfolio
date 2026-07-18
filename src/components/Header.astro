@@ -1,0 +1,60 @@
+<template>
+  <header class="app-header">
+    <a href="#" class="brand" aria-label="Zur Startseite">
+      <img src="../assets/images/logo.svg" alt="Logo" class="brand-logo" />
+      
+    </a>
+    <div class="nav-spacer"></div>
+    <nav class="nav">
+      <a href="#about">Über mich</a>
+      <a href="#projects">Projekte</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+</template>
+
+<style scoped>
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 5rem;
+  background-color: var(--light-gray);
+}
+
+.brand-logo {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  transform: scale(2);
+}
+
+.nav-spacer {
+  width: 5rem;
+}
+
+.nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--dark-font-color);
+  padding: 1rem 0;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+  }
+}
+</style>

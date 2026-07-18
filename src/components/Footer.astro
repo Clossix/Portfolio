@@ -1,0 +1,35 @@
+---
+import astroLogo from '../assets/astro.svg';
+import background from '../assets/background.svg';
+---
+
+<template>
+  <footer class="app-footer">
+    <div class="footer-links">
+      <a href="#imprint">Impressum</a>
+      <a href="#contact">Kontakt</a>
+    </div>
+    <p>© 2026 Mein Portfolio. Alle Rechte vorbehalten.</p>
+  </footer>
+</template>
+
+<style scoped>
+.app-footer {
+  padding: 1.5rem 2rem;
+  background: var(--dark-font-color);
+  color: var(--light-gray);
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+</style>
