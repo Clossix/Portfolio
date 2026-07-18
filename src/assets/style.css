@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Stack Sans Headline';
-  src: url('../assets/fonts/StackSansHeadline-SemiBold.ttf') format('truetype');
+  src: url('../../public/fonts/StackSansHeadline-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Stack Sans Headline';
-  src: url('../assets/fonts/StackSansHeadline-Light.ttf') format('truetype');
+  src: url('../../public/fonts/StackSansHeadline-Light.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
